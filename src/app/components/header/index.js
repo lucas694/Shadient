@@ -10,17 +10,17 @@ export function Header() {
                         <h1 className="text-xl font-bold text-white">Shadient.co</h1>
                     </div>
                     <nav className="hidden md:flex space-x-2">
-                        <a href="/" className="text-white hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium">
+                        <a href="/" className="text-white px-3 py-2 rounded-md text-sm font-medium">
                             Home
                         </a>
-                        <a href="/" className="text-white hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium">
+                        <a href="/company" className="text-white px-3 py-2 rounded-md text-sm font-medium">
                             Company
                         </a>
-                        <a href="/sobre" className="text-white hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium">
+                        <a href="/service" className="text-white px-3 py-2 rounded-md text-sm font-medium">
                             Services
                         </a>
-                        <button className="px-8 py-1 bg-transparent border border-[#FFA800] text-[#FFA800] font-bold rounded-full 
-                        hover:bg-[#FFA800] hover:text-gray-200 transition duration-500 cursor-pointer">
+                        <button className="px-8 py-1 bg-transparent border border-[#FFA800] text-[#FFA800] font-semibold rounded-full 
+                        hover:bg-[#FFA800] hover:text-gray-200 transition duration-500 cursor-pointer uppercase">
                             Contact
                         </button>
                     </nav>

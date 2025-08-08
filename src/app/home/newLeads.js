@@ -1,20 +1,19 @@
 const NewLeads = () => {
     return (
-        <div 
-            className="w-full flex items-center justify-center bg-black  py-15 px-6 md:p-20 md:py-auto md:px-auto
+        <div className="w-full flex items-center justify-center bg-black  py-15 px-6 md:p-20 md:py-auto md:px-auto
             bg-[url('/assets/main-bg.png'),radial-gradient(circle_at_10%_80%,#EF9364_0%,transparent_25%),radial-gradient(circle_at_90%_20%,#8A7ACE_0%,transparent_25%)]
             bg-cover bg-center bg-no-repeat
              "
         >
             <div className="w-full md:w-auto xl:w-[45%] 2xl:w-[35%] flex flex-col items-center">
-                <div className="text-white text-start">
-                    <h1 className="text-5xl md:text-7xl 2xl:text-8xl font-bold">Attract</h1>
-                    <h1 className="text-5xl md:text-7xl 2xl:text-8xl font-bold bg-gradient-to-r from-[#FA7C0B] via-[#9DE8EE] to-[#9F8CED] bg-clip-text text-transparent">
+                <div className="text-white text-start text-5xl md:text-7xl 2xl:text-8xl font-bold">
+                    <h1 className="">Attract</h1>
+                    <h1 className="bg-gradient-to-r from-[#FA7C0B] via-[#9DE8EE] to-[#9F8CED] bg-clip-text text-transparent">
                         NewLeads
                     </h1>
-                    <h1 className="text-5xl md:text-7xl 2xl:text-8xl font-bold">like never</h1>
-                    <h1 className="text-5xl md:text-7xl 2xl:text-8xl font-bold">before</h1> 
-                    <p className="text-[#A09F9F] pt-2 text-sm md:pt-5 md:text-base">Risus commodo id odio turpis pharetra elementum. Pulvinar porta porta feugiat scelerisque in elit. Morbi rhoncus, tellus, eros</p>
+                    <h1 className="">like never</h1>
+                    <h1 className="">before</h1> 
+                    <p className="text-[#A09F9F] pt-2 text-xs md:pt-5 md:text-base">Risus commodo id odio turpis pharetra elementum. Pulvinar porta porta feugiat scelerisque in elit. Morbi rhoncus, tellus, eros</p>
                 </div>
                 <div className="w-full flex flex-col md:flex-row mt-4 md:mt-8 ">
                     <input 

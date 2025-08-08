@@ -24,6 +24,14 @@ const offerData = [
   {id: 6, img: "/assets/offerCards/user.png", title: "User testing", description: "Sed faucibus faucibus egestas volutpat, accumsan adipiscing egestas est. Auctor et leo urna est."},
 ]
 
+const piecesData =[
+  {id:1,img:"/assets/pieceCard.png",title:"website",subtitle:"Creative landing page"},
+  {id:2,img:"/assets/pieceCard.png",title:"digital marketing",subtitle:"Why We Collect User's Data"},
+  {id:3,img:"/assets/pieceCard.png",title:"branding",subtitle:"Creative Branding"},
+  {id:4,img:"/assets/pieceCard.png",title:"user testing",subtitle:"Creative landing page"},
+  {id:5,img:"/assets/pieceCard.png",title:"development",subtitle:"Automation. Advanced Level"},
+  {id:6,img:"/assets/pieceCard.png",title:"seo",subtitle:"How We Optimized Our SEO"},
+]
 
 export function getPartnersData() {
     return partnersData.slice(0, 6);
@@ -35,4 +43,8 @@ export function getPartnersDataSecond() {
 
 export function getOfferData() {
     return offerData;
+  }
+
+  export function getPiecesData() {
+    return piecesData;
   }

@@ -1,7 +1,9 @@
-import NewLeads from "./components/home/newLeads";
-import Partners from "./components/home/partners";
-import Weoffer from "./components/home/weOffer";
-import ChooseUs from "./components/home/chooseUs";
+import NewLeads from "./home/newLeads";
+import Partners from "./home/partners";
+import Weoffer from "./home/weOffer";
+import ChooseUs from "./home/chooseUs";
+import Pieces from "./home/pieces";
+import Feedback from "./home/Feedback";
 
 export default function Home() {
   return (
@@ -10,6 +12,8 @@ export default function Home() {
       <Partners/>
       <Weoffer/>
       <ChooseUs/>
+      <Pieces/>
+      <Feedback/>
     </div>
   );
 }
